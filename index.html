@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Pizzaria</title>
+</head>
+
+<body>
+    <div class="video">
+        <video src="./videos/pizza.mp4" loop muted autoplay></video>
+        <div class="mascara"></div>
+    </div>
+
+    <header class="header">
+        <section>
+            <a id="#">
+                <img src="./img/logo.png" alt="logo">
+            </a>
+
+
+            <nav>
+                <a href="#home">Home</a>
+                <a href="#sobre">Sobre</a>
+                <a href="#" onclick="showUp()">Endereço</a>
+            </nav>
+        </section>
+    </header>
+
+
+    <section class="caixa-principal" id="home">
+        <div>
+            <h3>Ingredientes nobres, experiência única a cada mordida.</h3>
+            <p>Aqui, cada pizza é preparada com massa de fermentação natural, molho artesanal e ingredientes
+                selecionados, preservando a tradição italiana e o verdadeiro sabor que atravessa gerações.</p>
+            <a href="" class="botao">Conferir Agora</a>
+        </div>
+    </section>
+
+
+    <section class="caixa-sobre" id="sobre">
+        <h2 class="title"><span>Sobre </span>Nós</h2>
+        <div class="container">
+            <div class="sobre-img">
+                <img src="./img/about.jpg" alt="sobre" class="sobre">
+            </div>
+
+            <div class="sobre-text">
+                <h3>Pizzas criativas, para quem ama inovar!</h3>
+                <p>Selecionamos ingredientes frescos e nobres para criar pizzas de sabor incomparável. Cada detalhe é
+                    pensado para proporcionar uma experiência gastronômica única e memorável.</p>
+                <p>Aqui, a diversão está garantida! Monte sua pizza do jeito que quiser, reúna os amigos e aproveite um
+                    ambiente descontraído, perfeito para curtir bons momentos.
+                </p>
+                <a href="" class="botao">Saiba Mais</a>
+            </div>
+        </div>
+    </section>
+
+    <div class="modal">
+        <h2 class="title"><span>Nosso</span> Endereço</h2>
+
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29256.36217068487!2d-46.689273309063964!3d-23.566817499999985!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce59810ef19eff%3A0x2f4daed279873e30!2sLa%20Braciera%20Pizzaria%20-%20Pizza%20Napoletana%20-%20Jardins!5e0!3m2!1spt-BR!2sbr!4v1748821369030!5m2!1spt-BR!2sbr"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+    <div class="mascara-end" onclick="showOff()"></div>
+
+  
+</body>
+  <script src="script.js"></script>
+</html>
